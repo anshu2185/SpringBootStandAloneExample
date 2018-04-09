@@ -1,0 +1,7 @@
+applications:
+- name: springboot-test
+  memory: 1G
+  instances: 1
+  host: springboot-test
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  path: target/SpringBootStandAloneExample-1.0.0.jar
